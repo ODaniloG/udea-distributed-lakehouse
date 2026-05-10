@@ -1,0 +1,6 @@
+pandas
+duckdb
+pyarrow
+faker
+numpy
+matplotlib

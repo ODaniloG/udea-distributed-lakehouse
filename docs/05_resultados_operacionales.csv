@@ -1,0 +1,5 @@
+resultado,total_eventos,porcentaje
+EXITOSA,400055,80.01
+CUPO_AGOTADO,50178,10.04
+RETRY,29945,5.99
+TIMEOUT,19822,3.96

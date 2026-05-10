@@ -1,0 +1,61 @@
+REPORTE DE CALIDAD - ZONA SILVER
+=================================
+
+1. Filas originales Bronze vs Silver
+------------------------------------
+Estudiantes Bronze   : 200,000
+Estudiantes Silver   : 200,000
+Cursos Bronze        : 500
+Cursos Silver        : 500
+Inscripciones Bronze : 500,000
+Inscripciones Silver : 500,000
+
+2. Nulos por tabla Silver
+-------------------------
+Estudiantes:
+student_id    0
+nombre        0
+facultad      0
+semestre      0
+sede          0
+dtype: int64
+
+Cursos:
+course_id        0
+codigo_curso     0
+nombre_curso     0
+facultad         0
+cupos_totales    0
+dtype: int64
+
+Inscripciones:
+inscripcion_id       0
+student_id           0
+codigo_curso         0
+fecha_inscripcion    0
+sede                 0
+resultado            0
+latencia_ms          0
+hubo_retry           0
+hubo_timeout         0
+dtype: int64
+
+3. Distribucion de resultados de inscripcion
+--------------------------------------------
+resultado
+EXITOSA         400055
+CUPO_AGOTADO     50178
+RETRY            29945
+TIMEOUT          19822
+Name: count, dtype: int64
+
+4. Latencia
+-----------
+Latencia minima ms   : 20.00
+Latencia promedio ms : 292.48
+Latencia maxima ms   : 909.44
+
+5. Rango temporal
+-----------------
+Fecha minima : 2026-01-15 06:00:00
+Fecha maxima : 2026-01-20 22:00:00

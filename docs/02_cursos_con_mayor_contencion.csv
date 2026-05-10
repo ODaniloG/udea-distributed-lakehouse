@@ -1,0 +1,11 @@
+codigo_curso,nombre_curso,facultad,total_intentos,rechazos_cupo,retries,timeouts,latencia_promedio_ms
+BD504,Curso BD504,Ingenieria,45765,4591.0,2779.0,1828.0,291.49
+MATE301,Curso MATE301,Economia,45708,4556.0,2740.0,1845.0,291.88
+MED101,Curso MED101,Economia,45532,4701.0,2716.0,1783.0,292.55
+DER300,Curso DER300,Derecho,45474,4643.0,2721.0,1815.0,291.61
+PROG202,Curso PROG202,Ingenieria,45201,4352.0,2669.0,1805.0,293.97
+CUR380,Curso CUR380,Economia,623,62.0,34.0,29.0,293.66
+CUR315,Curso CUR315,Artes,620,55.0,35.0,30.0,293.97
+CUR285,Curso CUR285,Ingenieria,617,61.0,44.0,12.0,299.96
+CUR324,Curso CUR324,Economia,616,70.0,33.0,20.0,297.25
+CUR203,Curso CUR203,Economia,615,56.0,36.0,30.0,292.26

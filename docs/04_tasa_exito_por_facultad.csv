@@ -1,0 +1,7 @@
+facultad,total_intentos,exitosas,tasa_exito_pct,latencia_promedio_ms
+Derecho,85269,68106.0,79.87,291.77
+Economia,143163,114382.0,79.9,292.18
+Medicina,46663,37294.0,79.92,294.09
+Ciencias,43981,35229.0,80.1,291.89
+Ingenieria,135655,108710.0,80.14,292.68
+Artes,45269,36334.0,80.26,293.07

@@ -1,0 +1,61 @@
+RESULTADOS ANALITICOS - MINI LAKEHOUSE UDEA
+============================================
+
+
+01_INSCRIPCIONES_POR_HORA
+-------------------------
+     fecha  hora  total_intentos  exitosas  rechazadas  retries  timeouts
+2026-01-15    12            3677    2936.0       353.0    230.0     158.0
+2026-01-15    16            3677    2902.0       388.0    244.0     143.0
+2026-01-15    10            3677    2967.0       352.0    206.0     152.0
+2026-01-15    14            3677    2922.0       379.0    235.0     141.0
+2026-01-15    21            3677    2951.0       352.0    224.0     150.0
+2026-01-15     8            3677    2957.0       380.0    198.0     142.0
+2026-01-15    23            3677    2970.0       348.0    214.0     145.0
+2026-01-15     6            3677    2936.0       371.0    222.0     148.0
+2026-01-15    18            3677    2983.0       351.0    204.0     139.0
+2026-01-16     1            3677    2931.0       363.0    233.0     150.0
+
+
+02_CURSOS_CON_MAYOR_CONTENCION
+------------------------------
+codigo_curso  nombre_curso   facultad  total_intentos  rechazos_cupo  retries  timeouts  latencia_promedio_ms
+       BD504   Curso BD504 Ingenieria           45765         4591.0   2779.0    1828.0                291.49
+     MATE301 Curso MATE301   Economia           45708         4556.0   2740.0    1845.0                291.88
+      MED101  Curso MED101   Economia           45532         4701.0   2716.0    1783.0                292.55
+      DER300  Curso DER300    Derecho           45474         4643.0   2721.0    1815.0                291.61
+     PROG202 Curso PROG202 Ingenieria           45201         4352.0   2669.0    1805.0                293.97
+      CUR380  Curso CUR380   Economia             623           62.0     34.0      29.0                293.66
+      CUR315  Curso CUR315      Artes             620           55.0     35.0      30.0                293.97
+      CUR285  Curso CUR285 Ingenieria             617           61.0     44.0      12.0                299.96
+      CUR324  Curso CUR324   Economia             616           70.0     33.0      20.0                297.25
+      CUR203  Curso CUR203   Economia             615           56.0     36.0      30.0                292.26
+
+
+03_LATENCIA_POR_SEDE
+--------------------
+      sede  total_intentos  latencia_promedio_ms  latencia_minima_ms  latencia_maxima_ms  total_timeouts
+     Uraba          125100                350.04                20.0              875.30          4894.0
+Bajo Cauca          125194                350.01                20.0              909.44          5054.0
+   Oriente          124753                349.78                20.0              904.29          4944.0
+  Medellin          124953                120.00                20.0              259.65          4930.0
+
+
+04_TASA_EXITO_POR_FACULTAD
+--------------------------
+  facultad  total_intentos  exitosas  tasa_exito_pct  latencia_promedio_ms
+   Derecho           85269   68106.0           79.87                291.77
+  Economia          143163  114382.0           79.90                292.18
+  Medicina           46663   37294.0           79.92                294.09
+  Ciencias           43981   35229.0           80.10                291.89
+Ingenieria          135655  108710.0           80.14                292.68
+     Artes           45269   36334.0           80.26                293.07
+
+
+05_RESULTADOS_OPERACIONALES
+---------------------------
+   resultado  total_eventos  porcentaje
+     EXITOSA         400055       80.01
+CUPO_AGOTADO          50178       10.04
+       RETRY          29945        5.99
+     TIMEOUT          19822        3.96

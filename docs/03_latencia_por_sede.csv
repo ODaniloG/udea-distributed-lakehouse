@@ -1,0 +1,5 @@
+sede,total_intentos,latencia_promedio_ms,latencia_minima_ms,latencia_maxima_ms,total_timeouts
+Uraba,125100,350.04,20.0,875.3,4894.0
+Bajo Cauca,125194,350.01,20.0,909.44,5054.0
+Oriente,124753,349.78,20.0,904.29,4944.0
+Medellin,124953,120.0,20.0,259.65,4930.0
