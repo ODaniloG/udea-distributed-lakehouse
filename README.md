@@ -267,6 +267,6 @@ DuckDB demostró ventajas para workloads OLAP sobre archivos Parquet, mientras q
 
 # 👨‍💻 Integrantes
 
-- Nombre 1
-- Nombre 2
-- Nombre 3
+- Manuela Zapata Atencia
+- Oscar Danilo Granada Giraldo
+- Arley Burítica García
