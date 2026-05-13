@@ -5,9 +5,9 @@ Consulta comparada:
 Total de intentos y latencia promedio por hora.
 
 Resultados:
-Pandas sobre Silver : 126.61 ms
-DuckDB sobre Gold   : 58.53 ms
-Factor de mejora    : 2.16x
+Pandas sobre Silver : 383.75 ms
+DuckDB sobre Gold   : 213.75 ms
+Factor de mejora    : 1.80x
 
 Interpretacion:
 DuckDB ejecuta la consulta sobre archivos Parquet en formato columnar, lo que reduce el volumen de columnas leidas y mejora el rendimiento en consultas analiticas agregadas. Pandas representa una lectura mas operacional y menos optimizada para workloads OLAP.
