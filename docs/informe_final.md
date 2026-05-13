@@ -135,9 +135,9 @@ Clasifica:
 # 5. Generación de datos sintéticos
 
 Se generaron:
-- 5.000 estudiantes;
-- 120 cursos;
-- 50.000 intentos de inscripción.
+- 200.000 estudiantes;
+- 500 cursos;
+- 500.000 intentos de inscripción.
 
 El sistema simula:
 - hotspots;
@@ -199,12 +199,12 @@ Se comparó:
 
 | Motor | Tiempo |
 |---|---|
-| Pandas | 81.30 ms |
-| DuckDB | 18.37 ms |
+| Pandas | 120.89 ms |
+| DuckDB | 71.65 ms |
 
 ### Mejora observada
 
-> DuckDB fue 4.43x más rápido.
+> DuckDB fue 1.69x más rápido.
 
 Esto demuestra las ventajas de:
 - almacenamiento columnar;
